@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* inter-tight-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-tight-v7-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-tight-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-tight-v7-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+body{
+    background: #0A0C1C;
+}
+
+.container{
+width: 1440px;
+padding:150px 200px;
+margin-left: auto;
+margin-right:auto;
+display: flex;
+}
+/* box_1 */
+.box_1{
+    width: 540px;
+height: 446px;
+flex-shrink: 0;
+border-top-left-radius: 12px;
+border-bottom-left-radius: 12px;
+background: #1B1937;
+box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.20);
+}
+
+.title{
+    width: 403px;
+    color: #FFF;
+font-family: Inter;
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+padding-top: 71px;
+padding-left: 72px;
+padding-bottom: 25px;
+
+}
+
+.title_1{
+    color: #AB5CDB;
+font-family: Inter;
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+}
+
+.text{
+    width: 374px;
+    padding-left: 71.5px;
+    color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+padding-bottom: 72px;
+}
+/* box_2 */
+.box_2{
+    width: 540px;
+height: 446px;
+flex-shrink: 0;
+border-top-right-radius: 12px;
+border-bottom-right-radius: 12px;
+}
+
+/* box_3 */
+.box_3{
+    width:350px ;
+    display: flex;
+    margin-left: 71px; 
+    justify-content: space-between;
+    align-items: center;
+    }
+.title_2{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+}
+
+.text_1{
+    color: #eee;
+font-family: Lexend Deca;
+font-size: 12px;
+font-weight: 400;
+line-height: 25px; 
+letter-spacing: 1px;
+text-transform: uppercase;
+opacity: 0.6;
+}
+
+.title_3{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+}
+
+.text_2{
+    color: #FFF;
+font-family: Lexend Deca;
+font-size: 12px;
+font-weight: 400;
+line-height: 25px; 
+letter-spacing: 1px;
+text-transform: uppercase;
+opacity: 0.6;
+}
+.title_4{
+    color: #eee;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.text_3{
+    color: #eee;
+font-family: Lexend Deca;
+font-size: 12px;
+font-weight: 400;
+line-height: 25px; 
+letter-spacing: 1px;
+text-transform: uppercase;
+opacity: 0.6;
+}
